@@ -1,0 +1,7 @@
+@PointClass size(-24 -24 0, 24 24 117.0432) model("character.obj") color(0 0.5 0) = player_spawn []
+
+@PointClass size(-24 -24 0, 24 24 117.0432) model("character.obj") color(0.5 0 0) = zombie_spawn []
+
+@SolidClass = warp_zone [
+    destination(string)
+]
