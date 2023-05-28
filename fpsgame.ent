@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<classes>
+
+<group name="worldspawn" color="0 0 0">
+    <string key="display_name" name="Display Name">The name of the level</string>
+</group>
+
+<!-- Player Spawn -->
+<point name="player_spawn" color="0 .5 0" box="-24 -24 0 24 24 117.0432" model="character.obj" />
+
+<!-- Zombie Spawn -->
+<point name="zombie_spawn" color=".5 0 0" box="-24 -24 0 24 24 117.0432" model="character.obj">
+    <real key="delay" name="Respawn Delay" value="3.0">Time in seconds between zombie respawns</real>
+</point>
+
+<!-- Point Light -->
+<point name="point_light" color=".65 .65 1" box="-8 -8 -8 8 8 8">
+    <real key="intensity" name="Intensity" value="3.0">The intensity of the light</real>
+    <color key="color" name="Color" value="1.0 1.0 1.0">The color of the light</color>
+</point>
+
+</classes>
