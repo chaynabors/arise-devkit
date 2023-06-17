@@ -2,7 +2,8 @@
 <classes>
 
 <group name="worldspawn" color="0 0 0">
-    <string key="display_name" name="Display Name">The name of the level</string>
+    <string key="skybox" name="Skybox">The skybox to use</string>
+    <real key="skybox_intensity" name="Skybox Intensity" value="1">The intensity of the skybox</real>
 </group>
 
 <!-- Player Spawn -->
@@ -10,7 +11,7 @@
 
 <!-- Zombie Spawn -->
 <point name="zombie_spawn" color=".5 0 0" box="-24 -24 0 24 24 117.0432" model="character.obj">
-    <real key="delay" name="Respawn Delay" value="3.0">Time in seconds between zombie respawns</real>
+    <real key="delay" name="Respawn Delay" value="3">Time in seconds between zombie respawns</real>
 </point>
 
 </classes>
